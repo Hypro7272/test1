@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/*обращение ко всем тегам, снимаем стандартные параметры тегам(у каждого тега свои параметры)*/
+*,*:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*    убираем линии обводки у некоторых браузеров*/
+}
+nav,footer,header,aside{
+    display: block;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/*уравнивает поведеине шрифтов и элементов для разных браузеров, запрещает самовольное увелечение шрифта на айфонах*/
+input,button,textarea{
+    font-family: inherit;
+}
+input::-ms-clear{
+    display: none;}
+button{
+    cursor: pointer;
+}
+button::-moz-focus-inner{
+    padding: 0;
+    border: 0;
+}
+a, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+    font-weight: 400;
+}
+.Arial {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.fontsize40{
+    font-size: 40px;
+}
+.italic{
+    font-style: italic;
+}
+.font700{
+    font-weight: 700;
+}
+.fontred{
+    color: red;
+}
+.textright{
+    text-align: right;
+}
+.textcenter{
+    text-align: center;
+}
+.textleft{
+    text-align: left;
+}
+.textjustify{
+    text-align: justify;
+    font-size: 26px;
+}
+.decor{
+    text-decoration: underline;
+}
+.decor2{
+    text-decoration: overline;
+}
+.decor3{
+    text-decoration: line-through;
+}
+.shadow{
+    text-shadow: 5px 4px 1.5px #000000;
+}
+.transform{
+    text-transform: capitalize;
+}
+.transform2{
+    text-transform: lowercase;
+}
+.transform3{
+    text-transform: uppercase;
+}
+.indent{
+    text-indent:50px;
+}
+.lspace{
+    letter-spacing: 5px;
+}
+.wspace{
+    word-spacing: 10px;
+}
+.whitespace{
+    white-space: normal;
+    white-space: nowrap;   /*текст не переносится на след строку*/
+}
+.lineheight{
+    line-height: 40px;
+}
